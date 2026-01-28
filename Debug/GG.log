@@ -1,0 +1,14 @@
+﻿  MainTest.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'MainTest.cpp')
+  E:\Dev\openGL\GG\Dep\GLFW\include\GLFW\glfw3.h(123,1):
+  see previous definition of 'APIENTRY'
+  
+E:\Dev\openGL\GG\MainTest.cpp(38,18): warning C4473: 'fprintf' : not enough arguments passed for format string
+  E:\Dev\openGL\GG\MainTest.cpp(38,18):
+  placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  E:\Dev\openGL\GG\MainTest.cpp(38,18):
+  the missing variadic argument 2 is required by format string '%d'
+  
+E:\Dev\openGL\GG\MainTest.cpp(43,18): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+  GG.vcxproj -> E:\Dev\openGL\GG\Debug\GG.exe

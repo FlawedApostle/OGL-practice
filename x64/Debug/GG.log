@@ -1,0 +1,4 @@
+﻿MainTest.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+MainTest.obj : error LNK2019: unresolved external symbol glfwGetError referenced in function main
+E:\Dev\openGL\GG\Dep\GLFW\lib\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Dev\openGL\GG\x64\Debug\GG.exe : fatal error LNK1120: 2 unresolved externals
