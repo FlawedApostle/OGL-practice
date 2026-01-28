@@ -1,0 +1,33 @@
+# 1. VISUAL STUDIO FOLDERS (The "Mess")
+# These contain local settings and temp databases. 
+# They are huge and change every time you click a file.
+.vs/
+**/ .vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# 2. COMPILED FILES (The "Results")
+# These are generated during "Build"
+# Build Your Own.
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# internal VS databases
+# *.user stores your personal window layout and local paths.
+*.db
+*.opendb
+*.user
+*.suo
+
+# ==========================================
+# 4. BLENDER EXTRAS
+# ==========================================
+# Blender creates .blend1, .blend2 files as autosaves. 
+# You only need the main .blend in your repo.
+*.blend[0-9]
